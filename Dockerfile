@@ -49,7 +49,7 @@ RUN echo $'\n\
 
 
 # Port setting
-EXPOSE 8000 2222
+EXPOSE 80 22
 
 # Run
 CMD ["/usr/bin/supervisord", "-n"]
